@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.bg {
+    animation:slide 6s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg,#74467f 50%, rgb(244, 203, 202) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:8s;
+}
+  
+.bg3 {
+    animation-duration:5s;
+}
+  
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+}
+
+
+#title-name{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    font-size: 50px;
+    text-shadow: white 0.75px 0.75px 0.75px;
+    text-decoration: underline;
+}
+
+#nav-hr{
+    width: 700px;
+}
+
+nav{
+    position: absolute;
+    top: 42%;
+    left: 25%;
+    font-size: 30px;
+    padding-bottom: 100%;
+}
+
+.sticky{
+    top: 42%;
+    left: 25%;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: black;
+    text-shadow: white 0.75px 0.75px 0.75px;
+    font-weight: 700;
+}
+
+.page-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -15%;
+    font-size: 40px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+#about-content{
+    font-size: 25px;
+    padding: 15px;
+}
+
+#about-container{
+    position: absolute;
+    bottom: -85%;
+    right: 40%;
+    width: 800px;
+    height: auto;
+    box-shadow: black 0px 0px 100px inset,
+                rgb(34, 34, 34) 10px 10px 5px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url(../788DD697-1A3E-4F68-B3E2-363F88709CBD_1_105_c.jpeg);
+    background-size: cover;
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    text-align: center;
+    z-index: 0;
+}
+/* 
+#picture-tab{
+    position: absolute;
+    bottom: -21%;
+    left: 5%;
+    /* height: 20px; 
+    width: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: white 3px solid;
+} 
+*/
+
+#picture-tab:active{
+    background-color: grey;
+}
+
+.-selected{
+    visibility: hidden;
+}
+
+#test{
+    position: absolute;
+    bottom: -1000%;
+}
+
+#about-me{
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    position: absolute;
+    right: 10%;
+    bottom: -50%;
+    box-shadow: rgb(34, 34, 34) 10px 10px 5px;
+}
+
+#map{
+    width: 250px;
+    height: 250px;
+    right: 10%;
+    bottom: -85%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: rgb(34, 34, 34) 10px 10px 5px;
+}
+
+#skills-section{
+    bottom: -120%;
+}
+
+.dev-icons{
+    width: 200px;
+    height: 200px;
+}
+
+#html-icon{
+    position: absolute;
+    bottom: -160%;
+    background-color: rgb(245, 245, 220,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    border: black 1px solid;
+    left: 2%;
+}
+
+#css-icon{
+    position: absolute;
+    bottom: -160%;
+    left: 22%;
+    background-color: rgb(245, 245, 220,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    border: black 1px solid;
+
+}
+
+#js-icon{
+    position: absolute;
+    bottom: -160%;
+    left: 42%;
+    width: 175px;
+    background-color: rgb(245, 245, 220,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    border: black 1px solid;
+
+}
+
+#sql-icon{
+    position: absolute;
+    bottom: -160%;
+    left: 62%;
+    background-color: rgb(245, 245, 220,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    border: black 1px solid;
+
+
+}
+
+#python-icon{
+    position: absolute;
+    bottom: -160%;
+    left: 82%;
+    background-color: rgb(245, 245, 220,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    border: black 1px solid;
+
+}
+
+#github-icon{
+    position: absolute;
+    bottom: -200%;
+    left: 41%;
+    background-color: rgb(245, 245, 220,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    border: black 1px solid;
+}
+
+#project-section{
+    bottom: -240%;
+}
+
+.project-template{
+    background-color: rgb(245, 245, 220,0.5);
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: solid black 1px;
+}
+
+#project-icon{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 32%;
+    top: 29%;
+}
+
+#project1{
+    position: absolute;
+    bottom: -285%;
+    left: 10%;
+}
+
+#project-icon2{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 32%;
+    top: 29%;
+}
+
+#project2{
+    position: absolute;
+    bottom: -285%;
+    left: 40%;
+}
+
+#project3{
+    position: absolute;
+    bottom: -285%;
+    right: 10%;
+    background-color: rgb(255, 255, 0, 0.5);
+}
+
+#project-icon3{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 32%;
+    top: 29%;   
+}
+
+.project-title{
+    font-size: 20px;
+    position: absolute;
+    top: -25%;
+}
