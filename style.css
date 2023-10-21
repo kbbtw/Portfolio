@@ -111,6 +111,7 @@ li a{
     text-shadow: 1.5px 1.5px 1.5px black;
     text-align: center;
     z-index: 0;
+    margin-top: 10px;
 }
 /* 
 #picture-tab{
